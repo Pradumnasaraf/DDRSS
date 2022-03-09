@@ -6,11 +6,9 @@ from dotenv import load_dotenv
 import dailyDev
 
 load_dotenv()
-
 TOKEN = os.environ.get('DISCORD_TOKEN')
-url = "https://api.daily.dev/rss/b/36b73af8-f6cc-4b03-8ffc-a0aa6544b57f"
 
-bot = commands.Bot(command_prefix="$", help_command=None)
+bot = commands.Bot(command_prefix="/", help_command=None)
 
 @bot.event
 async def on_ready():
@@ -22,9 +20,9 @@ async def hello(ctx):
 
 @bot.command()
 async def allfeeds(ctx, userURL):
-    allentries  = dailyDev.getAllFeed(userURL)
-    embed = discord.Embed(title="Current value of ", description=allentries, color=0x66acba)
-    # .set_thumbnail(url="")
+    bookmarkOwner, bookmarks  = dailyDev.getBookmarks(userURL)
+    embed = discord.Embed(title=bookmarkOwner, description=bookmarks, color=0xffffff)
+    embed.set_thumbnail(url="https://user-images.githubusercontent.com/51878265/157502629-3a5d9b14-00e5-45f2-9b2e-b90ffee977bc.png")
     await ctx.send(embed=embed)
 
 try:
