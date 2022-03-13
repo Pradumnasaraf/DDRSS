@@ -1,16 +1,20 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/158046499-30013c0f-9fab-41cf-aad3-71c48c82c2f8.gif" height=150px>
-<h1> Daily Dev  Really Simple Syndication (DDRSS) Bot</h1>
+<h1><img src="https://user-images.githubusercontent.com/51878265/158064566-853b9c0a-342f-4597-b88e-40a1cb9621cc.png" height=25>Daily Dev Really Simple Syndication (DDRSS) Bot</h1>
 
 **DDRSS Bot is a user-specific Discord Bot**, which help user to get all bookmarks and the latest bookmark on their discord chat. It also comes with a search feature to find all the bookmarks which match specific keywords.
 <br/>
 
 > This Bot works on [`daily.dev`](https://daily.dev/) bookmark URL as source data (which user has to provide by a command).
 
+<br/>
+
 ## 👨‍💻 Bot development and existence.
 
 **RSS Feed** returns XML data, which is complicated and cannot use directly in apps and programs other than the website, by using `feedparser` Python packages, I have converted the data in `JSON` format, which is now easily extractable,  and usable in building any kind of Apps and Bot (in our case).
 
-The bot is extracting data like username, Blog/Article links, and title and return those data accordingly in the proper pre-structured message, depending on the command which the user input.
+The bot is extracting data like username, Blog/Article links, and title and return those data accordingly in the proper pre-structured message, depending on the command which the user input
+
+<br/>
 
 ## 🕹️ Using the Bot:
 
@@ -19,6 +23,8 @@ The bot is extracting data like username, Blog/Article links, and title and retu
 **Step 2:** Set your [`daily.dev`](https://daily.dev/) Bookmark URL by using command - `/serurl <your bookmark URL>`
 
 **Step 3:** It's done, now you can use a different slash command to perform the task.
+
+<br/>
 
 ### Commands:
 
@@ -41,7 +47,7 @@ Bot use (**`/`**) as a prefix, that's every command will start with a slash (**`
 ### Features:
   
   - User Specific - By User Specific means, storing the user data individually with their ID's
-  - Search Function - User easily find their Bookmarked blog with the simple command `.searchbm <Keyword>`
+  - Search Function - User easily find their Bookmarked blog with the simple command `/searchbm <Keyword>`
 ---
 
 
@@ -49,4 +55,3 @@ Bot use (**`/`**) as a prefix, that's every command will start with a slash (**`
 ### Aim
 
 It's built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the **bulk** of data and also get the **latest data/feed** from the source. 
-
