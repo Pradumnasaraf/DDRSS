@@ -3,7 +3,9 @@
 
 **DDRSS Bot is a Discord Bot**, that is built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the bulk of data and also get the latest data/feed from the source. 
 
-> Currently bot woks on [`daily.dev`](https://daily.dev/) bookmark URL as source data (which user has to provide by a command).
+> Bot woks on [`daily.dev`](https://daily.dev/) bookmark URL as source data (which user has to provide by a command).
 
-### Bot Development and its existence.
+## Bot development and existence.
+
+**RSS Feed** returns XML data, which is complicated and cannot use directly into apps and programs other that webiste, by using `feedparser` Python packages, I have converted the data in `JSON` format, which is now easily extractbale,  and usable in building any kind of Apps and Bot (in our case).
 
