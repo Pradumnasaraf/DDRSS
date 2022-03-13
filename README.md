@@ -22,6 +22,24 @@ The bot is extracting data like username, Blog/Article links, and title and retu
  
 **Step 2:** Set your [`daily.dev`](https://daily.dev/) Bookmark URL by using command - `/serurl <your bookmark URL>`
 
+<details>
+ 
+ <summary> Click here: Tutorial to get a Sharable Bookmark </summary>
+ 
+
+
+https://user-images.githubusercontent.com/51878265/158066357-87909913-191c-4075-a795-9574ae286eb8.mp4
+
+
+   
+</details>
+
+
+
+
+
+
+
 **Step 3:** It's done, now you can use a different slash command to perform the task.
 
 <br/>
