@@ -16,7 +16,9 @@
 ## Using the Bot:
 <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158052899-f3e0760e-cef5-4eeb-bf47-1d9e2e5b2ee4.png"></p>
 
+
 ### Aim
-**DDRSS Bot is a Discord Bot**, that is built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the **bulk** of data and also get the **latest data/feed** from the source. 
+
+It's built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the **bulk** of data and also get the **latest data/feed** from the source. 
 
 
