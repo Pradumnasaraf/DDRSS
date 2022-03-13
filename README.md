@@ -27,6 +27,7 @@ The bot is extracting data like username, Blog/Article links, and title and retu
  <summary> Click here: Tutorial for getting daily.dev Sharable Bookmark (RSS Feed link) </summary>
 
 https://user-images.githubusercontent.com/51878265/158066794-5129f6f5-15ae-4b99-a764-e3e59bef8631.mp4
+ <h6>Video Source - daily.dev Twitter<h6>
 
 
 
