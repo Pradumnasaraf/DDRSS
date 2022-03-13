@@ -20,15 +20,17 @@ The bot is extracting data like username, Blog/Article links, and title and retu
 
 <img align ="right" src="https://user-images.githubusercontent.com/51878265/158052899-f3e0760e-cef5-4eeb-bf47-1d9e2e5b2ee4.png">**Step 1:** First you need to invite the Bot to the server, you can simply click on the right button 👉
  
-**Step 2:** Set your [`daily.dev`](https://daily.dev/) Bookmark URL by using command - `/serurl <your bookmark URL>`
+**Step 2:** Set your [`daily.dev`](https://daily.dev/) Bookmark URL by using command - `/serurl <your sharable bookmark URL>`
 
 <details>
  
- <summary> Click here: Tutorial to get a Sharable Bookmark </summary>
- 
+ <summary> Click here: Tutorial for getting daily.dev Sharable Bookmark (RSS Feed link) </summary>
+
+https://user-images.githubusercontent.com/51878265/158066794-5129f6f5-15ae-4b99-a764-e3e59bef8631.mp4
 
 
-https://user-images.githubusercontent.com/51878265/158066357-87909913-191c-4075-a795-9574ae286eb8.mp4
+
+
 
 
    
@@ -50,7 +52,7 @@ Bot use (**`/`**) as a prefix, that's every command will start with a slash (**`
 
 - **`/allcmd`** - Returns all the DDRSS Bot command
 
-- **`/serurl <your bookmark URL>`** - To set the the Bookmark URL (RSS Feed URL).
+- **`/serurl <your sharable bookmark URL>`** - To set the the Bookmark URL (RSS Feed URL).
 
 - **`/bm`** - Returns your latest 5 Bookmarks.
 
