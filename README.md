@@ -10,11 +10,37 @@
 
 **RSS Feed** returns XML data, which is complicated and cannot use directly into apps and programs other that webiste, by using `feedparser` Python packages, I have converted the data in `JSON` format, which is now easily extractbale,  and usable in building any kind of Apps and Bot (in our case).
 
-**Bot is extracting data like Username, Blog/Artcile links, and title and return those data accordingly in proper pre-structued message, depedning on the command which thr user input.**
-
+Bot is extracting data like username, Blog/Artcile links, and title and return those data accordingly in proper pre-structued message, depedning on the command which thr user input.
 
 ## Using the Bot:
-<p align="center"><img src="https://user-images.githubusercontent.com/51878265/158052899-f3e0760e-cef5-4eeb-bf47-1d9e2e5b2ee4.png"></p>
+
+- <img align ="right" src="https://user-images.githubusercontent.com/51878265/158052899-f3e0760e-cef5-4eeb-bf47-1d9e2e5b2ee4.png"> Fisrt you need to invite the DDRSS Bot to the server, you can simply slick on the the right button 👉
+- Sett your daily.dev Bookmark URL by using command 
+
+### Commands:
+
+Bot use (**`/`**) as prefix, that's every command will start with a slash (**`/`**)
+
+- **`/allcmd`** - Returns all the DDRSS Bot command
+
+- **`/serurl <your bookmark URL>`** - To set the the Bookmark URL (RSS Feed URL).
+
+- **`/bm`** - Returns your latest 5 Bookmarks.
+
+- **`/latestbm`** - Returns latest bookmark.
+
+- **`/dd`** - Returns a short description about daily.dev.
+
+- **`/searchbm <Keyword>`** <keyword> Returns the bookmarks matching that Keyword
+  
+  Eg: `/searchbm Open Source`
+  
+### Features:
+  
+  - User Specifc - By User Specifc means, strorning the user data indivisually with their ID's
+  - Search Function - User easily find their Bookmarked blog with the simple command `.searchbm <Keyword>`
+---
+
 
 
 ### Aim
