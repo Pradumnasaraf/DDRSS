@@ -18,7 +18,7 @@ The bot is extracting data like username, Blog/Article links, and title and retu
 
 ## 🕹️ Using the Bot:
 
-<img align ="right" src="https://user-images.githubusercontent.com/51878265/158052899-f3e0760e-cef5-4eeb-bf47-1d9e2e5b2ee4.png">**Step 1:** First you need to invite the Bot to the server, you can simply click on the right button 👉
+<a href="https://discord.com/api/oauth2/authorize?client_id=950398355853430824&permissions=534723950656&scope=bot"><img align ="right" src="https://user-images.githubusercontent.com/51878265/158052899-f3e0760e-cef5-4eeb-bf47-1d9e2e5b2ee4.png"><a>**Step 1:** First you need to invite the Bot to the server, you can simply click on the right button 👉
  
 **Step 2:** Set your [`daily.dev`](https://daily.dev/) Bookmark URL by using command - `/serurl <your sharable bookmark URL>`
 
