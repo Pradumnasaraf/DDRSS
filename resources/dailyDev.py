@@ -1,6 +1,7 @@
 import feedparser
 ddLogo = "https://user-images.githubusercontent.com/51878265/157502629-3a5d9b14-00e5-45f2-9b2e-b90ffee977bc.png"
-dd_desc ="**daily.dev** is the fastest growing online community for developers to stay updated on the best developer news. Together we supercharge developers' knowledge and empower better software.\n https://daily.dev/"
+
+dd_desc ="**daily.dev** is the fastest growing online community for developers to stay updated on the best developer news. Together we supercharge developers' knowledge and empower better software.\n🌐 - https://daily.dev/"
 
 bot_logo = "https://user-images.githubusercontent.com/51878265/158382703-da9f59d2-c55b-47f2-ab39-ef53177a9b3e.png"
 
@@ -48,19 +49,13 @@ def seachPost (url, keyword):
     return description
 
 def allcmd():
-    cmd= '''
-Bot use (/) as a prefix, that's every command will start with a slash (/)
-
-/allcmd - Returns all the DDRSS Bot command
-
-/serurl <your sharable bookmark URL> - To set the the Bookmark URL (RSS Feed URL).
-
-/bm - Returns your latest 5 Bookmarks.
-
-/latestbm - Returns latest bookmark.
-
-/dd - Returns a short description about daily.dev.
-
-/searchbm <Keyword> Returns the bookmarks matching that Keyword    
+    commands_list= '''
+**/ddrss** - to check wether the bot is alive or not.
+**/allcmd** - returns a list of all DDRSS Bot commands.
+**/serurl <your sharable bookmark URL>** - to set user daily dev rss bookmark url.
+**/bookmarks** - returns all of the user's bookmarked post (latest - 5 post).
+**/latestbm** - returns the user's latest bookmarked post.
+**/searchbm <Keyword>** - search and returns user bookmarked posts matching the specific keyword. 
+**/dailydev** - returns a short description about daily dev  
 ''' 
-    return cmd
+    return commands_list
