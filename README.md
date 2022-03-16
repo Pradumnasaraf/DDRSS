@@ -38,26 +38,30 @@ https://user-images.githubusercontent.com/51878265/158066794-5129f6f5-15ae-4b99-
 ### ✍️ Commands:
 
 Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
-
-- `/allcmd` - Returns all the DDRSS Bot command
-
-- `/serurl <your sharable bookmark URL>` - To set the the Bookmark URL (RSS Feed URL).
-
-- `/bm` - Returns your latest 5 Bookmarks.
-
-- `/latestbm` - Returns latest bookmark.
-
-- `/dd` - Returns a short description about daily.dev.
-
-- `/searchbm <Keyword>` <keyword> Returns the bookmarks matching that Keyword
+  
+- `/ddrss` - to check wether the bot is alive or not.
+  
+- `/allcmd` - returns a list of all DDRSS Bot commands.
+  
+- `/serurl <your sharable bookmark URL>` - to set user daily dev rss bookmark url.
+  
+- `/bookmarks` - returns all of the user's bookmarked post (latest - 5 post).
+  
+- `/latestbm` - returns the user's latest bookmarked post.
+  
+- `/dailydev` - returns a short description about daily dev
+  
+ - `/searchbm <Keyword>` - search and returns user bookmarked posts matching the specific keyword.
   
   Eg: `/searchbm Open Source`
+  
   
 ### ⭐ Features:
   
   - User Specific - By User Specific means, storing the user data individually with their ID's
+  - Slash Commands - Uses Slash commands, directly integrated to message box, no need to rember the commands.
   - Search Function - User easily find their Bookmarked blog with the simple command `/searchbm <Keyword>`
-  - Error Handling - If user tried to to command like `/bm` or `/latestbm` without setting the URL, the bot will handle that.
+  - Error Handling - If user tried to use the command like `/bm` or `/latestbm` without setting the URL, the bot will handle that and prompt you.
   
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158070808-7f2a0cb6-3d0e-4c14-88fa-2fb4aa6c9b53.png"></p>
 
