@@ -58,13 +58,13 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
   
 ### ⭐ Features:
   
-  - **User Specific** - By User Specific means, storing the user data individually with their ID's
-  - **Slash Commands** - Uses Slash commands, directly integrated to message box, no need to remember the commands.
+  - **User-specific** - By user-specific it means storing the user data individually with their Discord ID.
+  - **Slash commands** - Uses Slash commands, directly integrated to message box, we don't need to remember any of the commands. Typing `/` will show up all the commands.
    
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158749162-e22991cf-4866-4a56-9344-7ac2c5d936bc.png"></p>
    
-  - **Search Function** - User easily find their Bookmarked blog with the simple command `/searchbm <Keyword>`
-  - **Error Handling** - If a user tried to use the command like `/bm` or `/latestbm` without setting the URL, the bot will handle that and prompt you.
+  - **Search function** - User can easily find their Bookmarked blogs with the simple command `/searchbm <Keyword>`
+  - **Error handling** - If a user tried to use the command like `/bm` or `/latestbm` without setting up the URL, the bot will handle that, and prompt you.
   
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158748792-6f6faa67-c3dd-4034-9072-f6a3cef780e9.png"></p>
 
