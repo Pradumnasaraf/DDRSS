@@ -60,9 +60,9 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
   
   - **User Specific** - By User Specific means, storing the user data individually with their ID's
   - **Slash Commands** - Uses Slash commands, directly integrated to message box, no need to remember the commands.
-  
-   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158747795-5fe48d86-ad3a-4a98-9a9b-b280e4f52e3b.gif" width="800"></p>
- 
+   
+  <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158749162-e22991cf-4866-4a56-9344-7ac2c5d936bc.png"></p>
+   
   - **Search Function** - User easily find their Bookmarked blog with the simple command `/searchbm <Keyword>`
   - **Error Handling** - If a user tried to use the command like `/bm` or `/latestbm` without setting the URL, the bot will handle that and prompt you.
   
