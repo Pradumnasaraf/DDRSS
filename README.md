@@ -70,7 +70,7 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
 
 ## 📹 Tutorial
 
-To get an overview and working of the Bot, please checkout the the video (By clciking the thumbnail/image below)
+To get an overview and working of the Bot, please check out the video (By clicking the thumbnail/image below)
   
   <p align="center"><a href="https://youtu.be/y9EkAZh2TtA"><img height="300" src="https://user-images.githubusercontent.com/51878265/158964027-932a81fd-870e-4235-bb40-98ef6f2259d1.png"><a></p>
    
