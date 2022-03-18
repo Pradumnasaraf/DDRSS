@@ -12,7 +12,7 @@
 
 **RSS Feed** returns XML data, which is complicated and cannot use directly in apps and programs other than the website, by using `feedparser` -a  Python package, I have converted the retuen data into `JSON` format, which is now easily extractable, and usable in building any kind of Apps and Bot (in our case).
 
-Every time user calls a command, the bot request data from the API `api.daily.dev/rss/a/*****`  (vary user to user) and extract data like username, Blog/Article links, and title, and convert into `JSON` and return those data accordingly in the proper pre-structured message, depending on the command which the user input
+Every time user calls a command, the bot request data from the API `api.daily.dev/rss/a/*****`  (link vary user to user) and extract data like `username`, `Blog/Article links`, and `title`, and convert into `JSON` and return those data accordingly in the proper pre-structured message, depending on the command which the user input.
 
 <br/>
 
@@ -37,34 +37,34 @@ https://user-images.githubusercontent.com/51878265/158066794-5129f6f5-15ae-4b99-
 
 ### ✍️ Commands:
 
-Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
+Bot use (`/`) as a prefix, that's every command will start with a slash (`/`). Every command is integrated into Discord Slash commands
   
-- `/ddrss` - to check whether the bot is alive or not.
+- `/ddrss` - to check whether the bot is working or not.
   
 - `/allcmd` - returns a list of all DDRSS Bot commands.
   
-- `/serurl <your sharable bookmark URL>` - to set user daily dev rss bookmark url.
+- `/serurl <your sharable bookmark URL>` - will set the user daily dev rss bookmark url.
   
-- `/bookmarks` - returns all of the user's bookmarked post (latest - 5 post).
+- `/bookmarks` - returns all of the user's bookmarked posts. (latest - 5 post).
   
 - `/latestbm` - returns the user's latest bookmarked post.
   
-- `/dailydev` - returns a short description about daily dev
+- `/dailydev` - returns a short description about daily.dev
   
- - `/searchbm <Keyword>` - search and returns user bookmarked posts matching the specific keyword.
+ - `/searchbm <Keyword>` - search and returns user bookmarked posts matching that specific keyword.
   
   Eg: `/searchbm Open Source`
   
   
 ## ⭐ Features:
   
-  - **User-specific** - By user-specific it means storing the user data individually with their Discord ID.
-  - **Slash commands** - Uses Slash commands, directly integrated to message box, we don't need to remember any of the commands. Typing `/` will show up all the commands.
+  - **User-specific** - By user-specific it means returing data type varries user to user.
+  - **Slash commands** - Uses Slash commands, commands are directly integrated to Discord message box, we don't need to remember any of the commands. Typing `/` will show up all the commands.
    
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158960622-766606bc-d7d8-45cb-9f76-a14d90cd0c30.png"></p>
    
-  - **Search function** - User can easily find their Bookmarked blogs with the simple command `/searchbm <Keyword>`
-  - **Error handling** - If a user tried to use the command like `/bm` or `/latestbm` without setting up the URL, the bot will handle that, and prompt you.
+  - **Search function** - User can easily find their bookmarked posts, with the simple command `/searchbm <Keyword>`
+  - **Error handling** - If a user tried to use the command like `/bm` or `/latestbm` without setting up the URL or setting up the wrong URL, the bot will handle that, and prompt them.
   
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158960290-0bd28630-32bd-4b2d-b74f-f614607d1543.png"></p>
 
