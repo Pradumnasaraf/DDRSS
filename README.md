@@ -1,7 +1,7 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/158046499-30013c0f-9fab-41cf-aad3-71c48c82c2f8.gif" height=150px>
 <h1><img src="https://user-images.githubusercontent.com/51878265/158064566-853b9c0a-342f-4597-b88e-40a1cb9621cc.png" height=25>Daily Dev Really Simple Syndication (DDRSS) Bot</h1>
 
-**DDRSS Bot is a user-specific Discord Bot**, which help user to get all bookmarks and the latest bookmark on their discord chat. It also comes with a search feature to find the bookmarks which matches the specific keywords.
+**DDRSS Bot is a user-specific Discord Bot**, which help user to get all bookmarks and the latest bookmark on their discord chat. It also comes with a search feature to find the bookmarks which match the specific keywords.
 <br/>
 
 > Bot works on [`daily.dev`](https://daily.dev/) shareable bookmark URL as source data.
@@ -10,7 +10,7 @@
 
 ## 👨‍💻 Bot development and existence.
 
-**RSS Feed** returns XML data, which is complicated and cannot use directly in apps and programs other than the website, by using `feedparser` -a  Python package, I have converted the retuen data into `JSON` format, which is now easily extractable, and usable in building any kind of Apps and Bot (in our case).
+**RSS Feed** returns XML data, which is complicated and cannot use directly in apps and programs other than the website, by using `feedparser` -a  Python package, I have converted the return data into `JSON` format, which is now easily extractable, and usable in building any kind of Apps and Bot (in our case).
 
 Every time user calls a command, the bot request data from the API `api.daily.dev/rss/a/*****`  (link vary user to user) and extract data like `username`, `Blog/Article links`, and `title`, and convert into `JSON` and return those data accordingly in the proper pre-structured message, depending on the command which the user input.
 
@@ -58,8 +58,8 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`). E
   
 ## ⭐ Features:
   
-  - **User-specific** - By user-specific it means returing data type varries user to user.
-  - **Slash commands** - Uses Slash commands, commands are directly integrated to Discord message box, we don't need to remember any of the commands. Typing `/` will show up all the commands.
+  - **User-specific** - By user-specific it means returning data type varies from user to user.
+  - **Slash commands** - Uses Slash commands, commands are directly integrated into the Discord message box, we don't need to remember any of the commands. Typing `/` will show up all the commands.
    
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158960622-766606bc-d7d8-45cb-9f76-a14d90cd0c30.png"></p>
    
@@ -77,5 +77,5 @@ To get an overview and working of the Bot, please check out the video (By clicki
   
 ## 🎯 Aim of the project:
 
-This project built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share, transfer and use **bulk** of data and also fetch the **latest data/feed** from the source. 
+This project was built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share, transfer and use **bulk** of data and also fetch the **latest data/feed** from the source. 
   
