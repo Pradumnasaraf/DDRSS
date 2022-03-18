@@ -69,13 +69,13 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
 
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158960290-0bd28630-32bd-4b2d-b74f-f614607d1543.png"></p>
 
-## Tutorial
+## 📹 Tutorial
 
 To get an overview and working of the Bot, please checkout the the video (By clciking the thubnaiml/image below)
   
-  <a href="https://youtu.be/y9EkAZh2TtA"><img align ="right" src="https://user-images.githubusercontent.com/51878265/158962778-0428fb3d-1a73-4747-a8f4-519e7619c062.png"><a>
-
-### 🎯 Aim of the project:
+  <p align="center"><a href="https://youtu.be/y9EkAZh2TtA"><img height="300" src="https://user-images.githubusercontent.com/51878265/158962778-0428fb3d-1a73-4747-a8f4-519e7619c062.png"><a></p>
+   
+## 🎯 Aim of the project:
 
 It's built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the **bulk** of data and also get the **latest data/feed** from the source. 
   
