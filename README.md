@@ -77,5 +77,5 @@ To get an overview and working of the Bot, please check out the video (By clicki
   
 ## 🎯 Aim of the project:
 
-It's built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the **bulk** of data and also get the **latest data/feed** from the source. 
+This project built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share, transfer and use **bulk** of data and also fetch the **latest data/feed** from the source. 
   
