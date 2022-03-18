@@ -56,7 +56,7 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
   Eg: `/searchbm Open Source`
   
   
-### ⭐ Features:
+## ⭐ Features:
   
   - **User-specific** - By user-specific it means storing the user data individually with their Discord ID.
   - **Slash commands** - Uses Slash commands, directly integrated to message box, we don't need to remember any of the commands. Typing `/` will show up all the commands.
@@ -69,6 +69,11 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
 
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158960290-0bd28630-32bd-4b2d-b74f-f614607d1543.png"></p>
 
+## Tutorial
+
+To get an overview and working of the Bot, please checkout the the video (By clciking the thubnaiml/image below)
+  
+  <a href="https://youtu.be/y9EkAZh2TtA"><img align ="right" src="https://user-images.githubusercontent.com/51878265/158962778-0428fb3d-1a73-4747-a8f4-519e7619c062.png"><a>
 
 ### 🎯 Aim of the project:
 
