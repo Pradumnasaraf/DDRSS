@@ -1,16 +1,16 @@
 <img align="right" src="https://user-images.githubusercontent.com/51878265/158046499-30013c0f-9fab-41cf-aad3-71c48c82c2f8.gif" height=150px>
 <h1><img src="https://user-images.githubusercontent.com/51878265/158064566-853b9c0a-342f-4597-b88e-40a1cb9621cc.png" height=25>Daily Dev Really Simple Syndication (DDRSS) Bot</h1>
 
-**DDRSS Bot is a user-specific Discord Bot**, which help user to get all bookmarks and the latest bookmark on their discord chat. It also comes with a search feature to find all the bookmarks which match specific keywords.
+**DDRSS Bot is a user-specific Discord Bot**, which help user to get all bookmarks and the latest bookmark on their discord chat. It also comes with a search feature to find the bookmarks which matches the specific keywords.
 <br/>
 
-> This Bot works on [`daily.dev`](https://daily.dev/) shareable bookmark URL as source data (which user has to provide by a command).
+> Bot works on [`daily.dev`](https://daily.dev/) shareable bookmark URL as source data.
 
 <br/>
 
 ## 👨‍💻 Bot development and existence.
 
-**RSS Feed** returns XML data, which is complicated and cannot use directly in apps and programs other than the website, by using `feedparser` Python packages, I have converted the data in `JSON` format, which is now easily extractable,  and usable in building any kind of Apps and Bot (in our case).
+**RSS Feed** returns XML data, which is complicated and cannot use directly in apps and programs other than the website, by using `feedparser` -a  Python package, I have converted the retuen data into `JSON` format, which is now easily extractable, and usable in building any kind of Apps and Bot (in our case).
 
 Every time user calls a command, the bot request data from the API `api.daily.dev/rss/a/*****`  (vary user to user) and extract data like username, Blog/Article links, and title, and convert into `JSON` and return those data accordingly in the proper pre-structured message, depending on the command which the user input
 
