@@ -66,15 +66,15 @@ Bot use (`/`) as a prefix, that's every command will start with a slash (`/`)
   - **Search function** - User can easily find their Bookmarked blogs with the simple command `/searchbm <Keyword>`
   - **Error handling** - If a user tried to use the command like `/bm` or `/latestbm` without setting up the URL, the bot will handle that, and prompt you.
   
-
   <p align="center"><img src="https://user-images.githubusercontent.com/51878265/158960290-0bd28630-32bd-4b2d-b74f-f614607d1543.png"></p>
 
 ## 📹 Tutorial
 
-To get an overview and working of the Bot, please checkout the the video (By clciking the thubnaiml/image below)
+To get an overview and working of the Bot, please checkout the the video (By clciking the thumbnail/image below)
   
-  <p align="center"><a href="https://youtu.be/y9EkAZh2TtA"><img height="300" src="https://user-images.githubusercontent.com/51878265/158962778-0428fb3d-1a73-4747-a8f4-519e7619c062.png"><a></p>
+  <p align="center"><a href="https://youtu.be/y9EkAZh2TtA"><img height="300" src="https://user-images.githubusercontent.com/51878265/158964027-932a81fd-870e-4235-bb40-98ef6f2259d1.png"><a></p>
    
+  
 ## 🎯 Aim of the project:
 
 It's built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share the **bulk** of data and also get the **latest data/feed** from the source. 
