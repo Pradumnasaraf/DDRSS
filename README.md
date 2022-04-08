@@ -96,7 +96,7 @@ DISCORD_TOKEN =   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 <details>
  
- <summary>Like thisr</summary>
+ <summary>Like this</summary>
  
 ![Screenshot from 2022-04-08 09-46-21](https://user-images.githubusercontent.com/51878265/162361445-19b5f99e-6ec4-416c-a44a-461fb5d756a0.png)
 
