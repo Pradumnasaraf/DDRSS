@@ -86,14 +86,13 @@ To get an overview and working of the Bot, please check out the video (By clicki
 pip3 install -r requirements.txt 
 ```
 
-- Create a `.env` file in the root folder and add your Discord Token and like so :
-
-We will get the keys by cteating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications)
+- Create a `.env` file in the root folder and add your Discord Token and like so, get the keys by creating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications)
+   
 ```txt
 DISCORD_TOKEN =   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
    
-- Invite the bot the to the server with Sending message and slash command permissions.
+- Invite the bot to the server, with sending message and slash command permissions.
 
 <details>
  
@@ -103,7 +102,7 @@ DISCORD_TOKEN =   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 </details>
 
-- Run `python3 main.py` in terminal for running the bot.
+- Run `python3 main.py` in the terminal for running the bot.
   
 ## 🎯 Aim of the project:
 
@@ -115,4 +114,3 @@ This project was built to prove the concept that how **RSS Feed** can be so powe
    
 <p align ="center"><img src=https://user-images.githubusercontent.com/51878265/162356966-daa57aed-1e7a-4048-b62b-bddf20b4b72b.png height="800"></p>
 
-  
