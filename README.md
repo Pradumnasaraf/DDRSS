@@ -76,7 +76,7 @@ To get an overview and working of the Bot, please check out the video (By clicki
   <p align="center"><a href="https://youtu.be/y9EkAZh2TtA"><img height="300" src="https://user-images.githubusercontent.com/51878265/158964027-932a81fd-870e-4235-bb40-98ef6f2259d1.png"><a></p>
    
 
-## 🖱️ Using and quick set-up guide:
+## 🖱️ Using the project:
 
 - Fork this repository
  
@@ -87,11 +87,22 @@ pip3 install -r requirements.txt
 ```
 
 - Create a `.env` file in the root folder and add your Discord Token and like so :
-   
+
+We will get the keys by cteating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications)
 ```txt
 DISCORD_TOKEN =   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
    
+- Invite the bot the to the server with Sending message and slash command permissions.
+
+<details>
+ 
+ <summary>Like thisr</summary>
+ 
+![Screenshot from 2022-04-08 09-46-21](https://user-images.githubusercontent.com/51878265/162361445-19b5f99e-6ec4-416c-a44a-461fb5d756a0.png)
+
+</details>
+
 - Run `python3 main.py` in terminal for running the bot.
   
 ## 🎯 Aim of the project:
