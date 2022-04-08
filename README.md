@@ -1,3 +1,5 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/DDRSS)
+
 <img align="right" src="https://user-images.githubusercontent.com/51878265/158046499-30013c0f-9fab-41cf-aad3-71c48c82c2f8.gif" height=150px>
 <h1><img src="https://user-images.githubusercontent.com/51878265/158064566-853b9c0a-342f-4597-b88e-40a1cb9621cc.png" height=25>Daily Dev Really Simple Syndication (DDRSS) Bot</h1>
 
@@ -7,6 +9,7 @@
 > Bot works on [`daily.dev`](https://daily.dev/) shareable bookmark URL as source data.
 
 <br/>
+<b><h3 align="center">🎉 Winner project of <a href="https://twitter.com/dailydotdev/status/1507003555110027276?s=20&t=1jqwj4nvk0KO6uuMStV1Ig">daily.dev RSS Feed Hackathon.</a>🎉 </h3></b>
 
 ## 👨‍💻 Bot development and existence.
 
@@ -74,8 +77,42 @@ To get an overview and working of the Bot, please check out the video (By clicki
   
   <p align="center"><a href="https://youtu.be/y9EkAZh2TtA"><img height="300" src="https://user-images.githubusercontent.com/51878265/158964027-932a81fd-870e-4235-bb40-98ef6f2259d1.png"><a></p>
    
+
+## 🖱️ Using the project:
+
+- Fork this repository
+ 
+- Install all the dependencies from [`requirements.txt`](/resources/requirements.txt) file. We can also use the command to install all the dependencies at once.
+
+```sh
+pip3 install -r requirements.txt 
+```
+
+- Create a `.env` file in the root folder and add your Discord Token and like so, get the keys by creating a bot application in the [Discord Developer Portal](https://discord.com/developers/applications)
+   
+```txt
+DISCORD_TOKEN =   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+   
+- Invite the bot to the server, with sending message and slash command permissions.
+
+<details>
+ 
+ <summary>Like this</summary>
+ 
+![Screenshot from 2022-04-08 09-46-21](https://user-images.githubusercontent.com/51878265/162361445-19b5f99e-6ec4-416c-a44a-461fb5d756a0.png)
+
+</details>
+
+- Run `python3 main.py` in the terminal for running the bot.
   
 ## 🎯 Aim of the project:
 
 This project was built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share, transfer and use **bulk** of data and also fetch the **latest data/feed** from the source. 
-  
+
+---
+   
+### 🎉 Winner project of daily.dev RSS Feed Hackathon.
+   
+<p align ="center"><img src=https://user-images.githubusercontent.com/51878265/162356966-daa57aed-1e7a-4048-b62b-bddf20b4b72b.png height="800"></p>
+
