@@ -7,6 +7,7 @@
 > Bot works on [`daily.dev`](https://daily.dev/) shareable bookmark URL as source data.
 
 <br/>
+<b><h3 align="center">🎉 Winner project of <a href="https://twitter.com/dailydotdev/status/1507003555110027276?s=20&t=1jqwj4nvk0KO6uuMStV1Ig">daily.dev RSS Feed Hackathon.</a>🎉 </h3></b>
 
 ## 👨‍💻 Bot development and existence.
 
@@ -78,4 +79,11 @@ To get an overview and working of the Bot, please check out the video (By clicki
 ## 🎯 Aim of the project:
 
 This project was built to prove the concept that how **RSS Feed** can be so powerful and useful when we have to share, transfer and use **bulk** of data and also fetch the **latest data/feed** from the source. 
+
+---
+   
+### 🎉 Winner project of daily.dev RSS Feed Hackathon.
+   
+<p align ="center"><img src=https://user-images.githubusercontent.com/51878265/162356966-daa57aed-1e7a-4048-b62b-bddf20b4b72b.png height="800"></p>
+
   
