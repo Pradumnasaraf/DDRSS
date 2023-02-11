@@ -6,6 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: ddrss
     restart: always
     env_file:
       - .env
