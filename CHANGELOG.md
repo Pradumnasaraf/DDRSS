@@ -1,4 +1,13 @@
-# 0.1.0 (2022-08-06)
+# [0.2.0](https://github.com/Pradumnasaraf/DDRSS/compare/v0.1.0...v0.2.0) (2023-02-11)
+
+
+### Features
+
+* Refactor app ([#4](https://github.com/Pradumnasaraf/DDRSS/issues/4)) ([bf30731](https://github.com/Pradumnasaraf/DDRSS/commit/bf30731e6c0d615e34f02c046524d0b1bea14ce5))
+
+
+
+# [0.1.0](https://github.com/Pradumnasaraf/DDRSS/compare/2278d77ab306367b345e20085cc16f375a9aeeb1...v0.1.0) (2022-08-06)
 
 
 ### Bug Fixes
