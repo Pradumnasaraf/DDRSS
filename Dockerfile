@@ -1,9 +1,6 @@
 FROM python:3.7.3-alpine3.9
 WORKDIR /app
-COPY requirements.txt .
-
-RUN pip3 install -r requirements.txt
-
-COPY . .
-
-CMD ["python3", "app/main.py"]
+COPY app/requirements.txt /app
+RUN pip install -r requirements.txt
+COPY app /app
+CMD ["python3","main.py"]
