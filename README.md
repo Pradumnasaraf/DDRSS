@@ -1,14 +1,22 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/DDRSS)
 
-<p align="center"><img src="https://user-images.githubusercontent.com/51878265/178142801-3e0cbdc1-e943-4f16-98af-cf74e2790165.png" height=200px></p>
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/51878265/178142801-3e0cbdc1-e943-4f16-98af-cf74e2790165.png" height=200px>
+
 <h1><img src="https://user-images.githubusercontent.com/51878265/158064566-853b9c0a-342f-4597-b88e-40a1cb9621cc.png" height=25>Daily Dev Really Simple Syndication (DDRSS) Bot</h1>
 
+[![Publish Image to GitHub Container Registry](https://github.com/Pradumnasaraf/DDRSS/actions/workflows/publish-ghcr.yml/badge.svg)](https://github.com/Pradumnasaraf/DDRSS/actions/workflows/publish-ghcr.yml) [![Releases](https://github.com/Pradumnasaraf/DDRSS/actions/workflows/releases.yml/badge.svg)](https://github.com/Pradumnasaraf/DDRSS/actions/workflows/releases.yml)
+
 **DDRSS Bot is a user-specific Discord Bot**, which help user to get all bookmarks and the latest bookmark on their discord chat. It also comes with a search feature to find the bookmarks which match the specific keywords.
-<br/>
+<br>
+
+</div>
 
 > Bot works on [`daily.dev`](https://daily.dev/) shareable bookmark URL as source data.
 
-<br/>
+<br>
+
 <b><h3 align="center">🎉 Winner project of <a href="https://twitter.com/dailydotdev/status/1507003555110027276?s=20&t=1jqwj4nvk0KO6uuMStV1Ig">daily.dev RSS Feed Hackathon.</a>🎉 </h3></b>
 
 ## 👨‍💻 Bot development and existence.
@@ -100,7 +108,7 @@ DISCORD_TOKEN =   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  
  <summary>Like this</summary>
  
-![Screenshot from 2022-04-08 09-46-21](https://user-images.githubusercontent.com/51878265/162361445-19b5f99e-6ec4-416c-a44a-461fb5d756a0.png)
+![Image](https://user-images.githubusercontent.com/51878265/162361445-19b5f99e-6ec4-416c-a44a-461fb5d756a0.png)
 
 </details>
 
