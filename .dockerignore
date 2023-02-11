@@ -1,0 +1,11 @@
+.git
+.env
+LICENSE
+.gitignore
+Dockerfile
+docker-compose.*
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+README.md
+.gitpod.yml
+.github
