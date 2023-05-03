@@ -44,7 +44,7 @@ async def seturl(ctx, url):
         # Add the User data in the dictionary in format {discordUserID: bookmarkURL}
         userData[ctx.author.id] = url
         message = await ctx.send(f"Hey {ctx.author.mention},\nyour *Bookmark URL* has been added, now you can use other commands :)")
-        # For adding the reaction.
+        # For adding the reaction
         emoji = '\N{Rocket}'
         await message.add_reaction(emoji)
     else:
