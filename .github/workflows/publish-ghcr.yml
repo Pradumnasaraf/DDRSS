@@ -1,4 +1,4 @@
-name: Publish Image to GitHub Container Registry
+name: Publish Image to GHCR
 
 on:
   push:
