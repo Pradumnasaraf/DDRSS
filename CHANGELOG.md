@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/Pradumnasaraf/DDRSS/compare/v0.2.1...v0.2.2) (2023-05-31)
+
+
+### Bug Fixes
+
+* release action token ([6ccd2d4](https://github.com/Pradumnasaraf/DDRSS/commit/6ccd2d4e182f84e15c16848c38813182b935dfa4))
+
+
+
 ## [0.2.1](https://github.com/Pradumnasaraf/DDRSS/compare/v0.2.0...v0.2.1) (2023-05-31)
 
 
