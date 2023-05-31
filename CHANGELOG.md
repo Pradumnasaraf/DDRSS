@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/Pradumnasaraf/DDRSS/compare/v0.2.0...v0.2.1) (2023-05-31)
+
+
+### Bug Fixes
+
+* Add version to DockerHub and GHCR images ([a6a2d65](https://github.com/Pradumnasaraf/DDRSS/commit/a6a2d65befcf7f1faa30f39d6fee7e7a302aa30b))
+
+
+
 # [0.2.0](https://github.com/Pradumnasaraf/DDRSS/compare/v0.1.0...v0.2.0) (2023-02-11)
 
 
