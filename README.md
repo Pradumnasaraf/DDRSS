@@ -1,5 +1,3 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pradumnasaraf/DDRSS)
-
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/51878265/178142801-3e0cbdc1-e943-4f16-98af-cf74e2790165.png" height=200px>
